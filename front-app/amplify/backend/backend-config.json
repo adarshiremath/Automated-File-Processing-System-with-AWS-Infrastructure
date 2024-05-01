@@ -1,0 +1,45 @@
+{
+  "auth": {
+    "frontappdea2a853": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_frontappdea2a853_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "frontappdea2a853"
+        }
+      ]
+    },
+    "AMPLIFY_auth_frontappdea2a853_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "frontappdea2a853"
+        }
+      ]
+    },
+    "AMPLIFY_auth_frontappdea2a853_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "frontappdea2a853"
+        }
+      ]
+    },
+    "AMPLIFY_auth_frontappdea2a853_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "frontappdea2a853"
+        }
+      ]
+    }
+  }
+}

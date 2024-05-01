@@ -1,9 +1,9 @@
-# FovusCodingChallenge
+# Automated File Processing System with AWS Infrastructure
 
-Download the code folder. In which you should have cdk-app and front-app. First we will be creating the cdk stack for our cloud
+Git clone this repo. In which you should have cdk-app and front-app. First we will be creating the cdk stack for our cloud
 and then implementing our front end app.
-=====================================
-Steps to setup CDK-APP
+
+## Steps to setup CDK-APP
 1. Have an AWS account, and create a user in the Identity and access management(IAM) with "AdministratorAccess" in the policy permissions. And create access key for this user which will be give you "Access Key" and a "Secret Access Key". (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
 2. Making sure you have following requirements
  a. nodejs -> https://nodejs.org/en/download
@@ -22,8 +22,8 @@ make sure to have the endpoint handing for the react-app
 
 Now we can switch over to the react front end app
 
-========================================
-Steps to setup REACT-APP
+
+## Steps to setup REACT-APP
 1. Here we would need to setup the .env file
  a. In the .ENV file set the REACT_APP_ACCESS_KEY to your access key retireved earlier and same with REACT_APP_SECRET_KEY and the REACT_APP_REGION to the region.
  b. You would also need to set the REACT_APP_API_GATEWAY_ENDPOINT to the api gateway that we get after our cdk deploy command is executed, which has been indicated earlier.
